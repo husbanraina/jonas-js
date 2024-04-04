@@ -1,0 +1,77 @@
+Javascript is a high-level, object oriented, multi-paradigm programming language.
+Separation of concerns.
+Value can either be a primitive or an object.
+7 primitive data types:
+number
+string
+boolean
+undefined
+null
+Symbol
+BigInt
+Javascript has dynamic typing : We do not have to manually define the data type of the value stored in a variable. Instead, data types are determined automatically.
+In js its the value that has a type, not the variable.
+legacy bug : typeof null  === 'object'
+let, const and var
+const - immutable, cant be empty(initial value)
+let - mutable, block scoped, reinitialized, not redeclared
+var - mutable, (old way),function scoped, reinitialized and redeclared.
+`${template literals}`
+type conversion and coercion
+conversion is manually changing the type and coercion happens automatically.
+type conversion:
+string + number = string
++string + number = number
+Number(string) + number = number
+Number("hello")= NaN(not a number)
+String(number)
+type coercion:
+string + number = string
+string - string = number
+ex: 2+3+4 +"5" ="95"
+Boolean(): truthy and falsy values
+0,"",null,false,undefined,NaN
+every other value is truthy except these
+loose equality == and strict equality ===
+=== checks for both value and type(NO TYPE COERCION)
+== only checks for value
+prompt("takes value from user");
+always prefer using strict : !== and ===
+not>>and/or :precedence
+for different values to do same thing in switch statement:
+case  "value1":
+case "value2":
+//do something
+break;
+expression is a piece of code that produces a value
+statement is a piece of code that does something but doesn't produce a value
+in template literal we can only place a expression.
+ternary operator:
+const drink= age>=18?"wine":"water" ;
+we can ternary operator inside template literal because it produces a value.(if else doesn't work).
+don't break the web. always should be "backward compatible".
+js is not forward compatible:
+during development : use updated version of browsers.
+during production : use babel to transpile and polyfill s to support older browser.(es5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
