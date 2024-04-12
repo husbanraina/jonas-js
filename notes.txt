@@ -150,6 +150,26 @@ do { // do something
 break and continue: stop execution of loop completely or skip one iteration only.
 Math.floor/trunc(Math.random()*6)+1 ;
 
+developer skills:
+prettier is an opinionated code editor.
+consistent code.
+file> preferences>user snippets
+-> understand the problem
+-> breaking up into sub problems
+debugging process:
+->  identify
+-> find
+-> fix
+-> prevent
+console.warn()
+console.log()
+console.error()
+console.table()
+prompt always returns a string
+devtools -> sources-> script.js-> breakpoints
+debugger;
+
+
 
 
 
