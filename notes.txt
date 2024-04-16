@@ -169,6 +169,56 @@ prompt always returns a string
 devtools -> sources-> script.js-> breakpoints
 debugger;
 
+html and css:
+index.html
+href: hypertext reference
+inline and black elements
+attributes 
+ids , classes
+id : unique
+class : multiple
+div, span
+convention in css is  to use lowercase letters with hyphens (-) for words that are not separated by a space
+form : semantic( has meaning), for seo
+inline, internal and external css
+selector { 
+  property : value
+}
+some properties gets inherited(commonly fonts ones)
+display : inline | block | none | flex | inline-block
+# : id selector
+. : class selector
+box model:
+in this order:
+content: height width
+padding
+border
+margin
+
+fill area = content + padding(area that gets filled with background color or background image)
+
+global reset :
+
+*{
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing  : border-box ;
+}
+
+units : px, rem, em , vh , vw , %
+
+curl link - to open web on terminal
+
+child selector:
+parentSelector childSelector{}
+
+
+
+
+
+
+
+
 
 
 
